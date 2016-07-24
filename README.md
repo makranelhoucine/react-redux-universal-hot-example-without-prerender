@@ -1,3 +1,6 @@
+Impressed by https://github.com/erikras/react-redux-universal-hot-example
+
+
 ## Installation
 
 ```bash
