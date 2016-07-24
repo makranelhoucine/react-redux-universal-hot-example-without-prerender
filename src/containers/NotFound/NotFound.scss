@@ -1,0 +1,13 @@
+
+
+@import "../../stylesheets/variables";
+@import "../../stylesheets/mixins";
+
+.not-found {
+
+  h1,
+  h5,
+  p {
+    text-align: center;
+  }
+}

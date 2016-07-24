@@ -1,0 +1,9 @@
+@import "../../../stylesheets/variables";
+@import "../../../stylesheets/mixins";
+
+.form-textarea-autosize {
+
+  textarea {
+    overflow: hidden !important;
+  }
+}

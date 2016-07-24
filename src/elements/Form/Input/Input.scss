@@ -1,0 +1,19 @@
+@import "../../../stylesheets/variables";
+@import "../../../stylesheets/mixins";
+
+$form-control: 'form-control';
+
+.#{$form-control} {
+
+  &:not(:first-child):not(:last-child) {
+    .input-group & {
+      border-top-left-radius: 4px !important;
+      border-bottom-left-radius: 4px !important;
+    }
+  }
+
+  .input-group & {
+    height: auto;
+    z-index: 1;
+  }
+}
